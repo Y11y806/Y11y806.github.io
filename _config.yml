@@ -1,0 +1,16 @@
+# 标题
+title: 我的日常博客
+# 博客简介
+description: 学习记录和日常随笔
+# 博客网址
+url: "https://Y11y806.github.io"
+
+# 默认配置：_posts下全部文章使用post布局
+defaults:
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+
+#代码高亮
+highlighter: rouge
